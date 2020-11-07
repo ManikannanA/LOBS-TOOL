@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE AWD SYSTEM "E:\AWF\Upload10\2542\upload.dtd">
+<AWD>
+	<TASK>
+		<createInstances xmlns="http://www.dsttechnologies.com/awd/rest/v1">
+			<createInstance>
+				<LOCK>FALSE</LOCK>
+				<businessAreaName>ALLIEDLIC</businessAreaName>
+				<typeName>MISC</typeName>
+				<statusName>CREATED</statusName>
+				<fieldValues>
+					<fieldValue name="IDFY"><value>[EXTERNAL] Expired: 6761557 - ANTHONY D FERNANDEZ - Nationwide Insurance </value>
+					</fieldValue>
+					<fieldValue name="EMAL"><value>SPO_Arbitration_2edd33e6-e143-4326-a96e-626c99583b70@AffordableAmericanIns</value>
+					</fieldValue>
+					<fieldValue name="SRCE"><value>XFM_EMAIL_MKTG</value>
+					</fieldValue>
+					</fieldValues>
+			<createRelationships>
+				<childRelationshipIds>EmailBody.txt</childRelationshipIds>
+				</createRelationships>
+			</createInstance>
+			<createSourceInstance relationshipId="EmailBody.txt">
+				<businessAreaName>ALLIEDLIC</businessAreaName>
+				<typeName>EMAIL</typeName>
+				<fieldValues><fieldValue name="IDFY"><value>EmailBody.txt</value>
+					</fieldValue>
+					<fieldValue name="FNET"><value>AWF-MKTG{6D185239CA42AAA966EE1F4B3D6170B5D539705C325F8ED237}</value>
+					</fieldValue>
+					</fieldValues>
+			</createSourceInstance>
+		</createInstances>
+	</TASK>
+	
+<XSOURCE><![CDATA[
+		<establishElectronicDocumentRequest>
+			<documentDetail><documentContent><![CDATA[Cgo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CkZyb206IE1pY3Jvc29mdCBFeGNoYW5nZSBBcHByb3ZhbCBBc3Npc3RhbnQKPFNQT19BcmJpdHJhdGlvbl8yZWRkMzNlNi1lMTQzLTQzMjYtYTk2ZS02MjZjOTk1ODNiNzBAQWZmb3JkYWJsZUFtZXJpY2FuSW5zCi5vbm1pY3Jvc29mdC5jb20+ClNlbmQgdG86IFtwcnZzPTMyNDI3YjQ2Zj1BTFNNS1RHQG5hdGlvbndpZGUuY29tCjxwcnZzPTMyNDI3YjQ2Zj1BTFNNS1RHQG5hdGlvbndpZGUuY29tPl0KQ0M6IApCbGluZENDOiAKUG9zdGVkRGF0ZTogMDMvMDcvMjAyMCAxMToxMzo0NSBBTSBFU1QKU3ViamVjdDogW0VYVEVSTkFMXSBFeHBpcmVkOiA2NzYxNTU3IC0gQU5USE9OWSBEIEZFUk5BTkRFWiAtIE5hdGlvbndpZGUKSW5zdXJhbmNlIFByb2R1Y2VyIEFwcG9pbnRtZW50IENvbmZpcm1hdGlvbgoKTm8gYXR0YWNobWVudHMgZm91bmQuCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQogICAgICAgICAgCgpOYXRpb253aWRlIEluZm9ybWF0aW9uIFNlY3VyaXR5IFdhcm5pbmc6IFRoaXMgaXMgYW4gZXh0ZXJuYWwgZW1haWwuIERvIG5vdApjbGljayBvbiBsaW5rcyBvciBvcGVuIGF0dGFjaG1lbnRzIHVubGVzcyB5b3UgdHJ1c3QgdGhlIHNlbmRlci4NCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCg0KWW91ciBtZXNzYWdlIGhhcyBleHBpcmVkIHdpdGhvdXQgYW55IG1vZGVyYXRvciBkZWNpc2lvbiBmb3IgdGhlIGZvbGxvd2luZwpyZWNpcGllbnRzLg0KDQpCYXJyZXR0IEJhcnRlbHM7IEFBSSBBZG1pbg0KDQpTdWJqZWN0OiA2NzYxNTU3IC0gQU5USE9OWSBEIEZFUk5BTkRFWiAtIE5hdGlvbndpZGUgSW5zdXJhbmNlIFByb2R1Y2VyCkFwcG9pbnRtZW50IENvbmZpcm1hdGlvbg0K]]&gt;</documentContent>
+					<name>EmailBody.txt</name>
+					<externalReference>AWF-MKTG{6D185239CA42AAA966EE1F4B3D6170B5D539705C325F8ED237}</externalReference>
+					</documentDetail>
+				<propertyInfo>
+					<kind>Agent_Number</kind><theValue>0</theValue>
+				</propertyInfo><propertyInfo>
+					<kind>NPN</kind><theValue>0</theValue>
+				</propertyInfo>
+				<requestor>
+					<string>AWF_MKTG</string>
+					</requestor>
+				</establishElectronicDocumentRequest>
+				]]></XSOURCE></AWD>
+
+
+
+
+
+
